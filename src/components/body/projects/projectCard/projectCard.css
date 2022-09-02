@@ -1,0 +1,79 @@
+.project-card {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 10px;
+  padding: 8px 20px;
+  border-bottom: 2px solid hsl(280deg 81% 45%);
+  border-right: 2px solid hsl(280deg 81% 45%);
+  transition: transform 350ms;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.project-photo {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+}
+.project-info {
+  margin-bottom: 24px;
+  margin-right: 238px;
+}
+.project-info > p {
+  display: flex;
+}
+.project-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.tag {
+  padding: 5px 7px;
+  background-color: #1976d2;
+  border-radius: 5px;
+  font-size: small;
+  margin-right: 6px;
+  margin-bottom: 4px;
+  color: white;
+}
+.project-link {
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+
+}
+.project-links {
+  margin-top: 6px;
+  display: flex;
+}
+.link-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1976d2;
+  width: max-content;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+.icon {
+  margin-right: 4px;
+  mask-repeat: 4px;
+  color: white;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+.default-card {
+  width: 50rem;
+}
+
+@media only screen and (max-width: 720px) {
+  .default-card {
+    width: 18rem;
+  }
+}

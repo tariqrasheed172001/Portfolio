@@ -1,0 +1,26 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    margin-top: 4rem;
+}
+.project{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    align-items: center;
+}
+@media only screen and (max-width: 720px){
+    .project::-webkit-scrollbar{
+        display: none;
+    }
+    .projects{
+        margin-top: 0;
+    }
+    
+}
+
+/* .section-title{
+
+} */

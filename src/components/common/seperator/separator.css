@@ -1,0 +1,28 @@
+.separator {
+  background-image: linear-gradient(
+    to left bottom,
+    #d16ba5,
+    #c572b6,
+    #b67ac5,
+    #a383d1,
+    #8d8bda,
+    #818adb,
+    #7488dc,
+    #6587dd,
+    #627cda,
+    #6270d6,
+    #6464d1,
+    #6757cb
+  );
+  height: 6px;
+  width: 40%;
+  border-radius: 3px;
+  margin: 16px 0px;
+  display: none;
+}
+
+@media only screen and (max-width:720px){
+  .separator{
+    display: flex;
+  }
+}

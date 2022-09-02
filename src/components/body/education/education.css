@@ -1,0 +1,26 @@
+.education{
+    width: 100%;
+    margin-top: 4rem;
+}
+.education-list{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-bottom: 50px;
+    
+}
+@media only screen and (max-width: 720px){
+    .education-list::-webkit-scrollbar{
+        display: none;
+    }
+    .seperate{
+        display: none;
+    }
+    .education{
+        margin-top: 0;
+    }
+    .education-list{
+        margin-bottom: 0;
+        
+    }
+}
