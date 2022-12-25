@@ -21,7 +21,7 @@ export const SocialData=[
     },
     {
         platform:"Twitter",
-        link:"https://twitter.com/TARIQRA79688874",
+        link:"https://twitter.com/TARIQRA82421955",
         icons:require("../../assets/icons/twitter.png"),
     },
 ];

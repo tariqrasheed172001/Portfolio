@@ -7,6 +7,7 @@
     font-size: 20px;
     margin-right: 30px;
     font-weight: 700;
+    cursor: pointer;
 }
 .web-option > a{
     display:flex;
@@ -14,9 +15,14 @@
     align-items: center;
     margin-right: 4px;
     color: black;
+    cursor: pointer;
+}
+.web-option > label{
+    cursor: pointer;
 }
 .option-icon{
     margin-right: 5px;
+    cursor: pointer;
 }
 .web-option:last-child{
     margin-right: 0px;

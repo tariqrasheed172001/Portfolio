@@ -18,7 +18,7 @@ function Contact() {
         </div>
         <div className='download'>
          
-          <a href={require("../../../assets/resume/resume.pdf")} download="resume.pdf">
+          <a href="https://tariqrasheed172001.github.io/personal-website/MyResume.pdf" download="resume.pdf">
             <CloudDownloadOutlinedIcon fontSize='small' />
             Download resume
           </a>

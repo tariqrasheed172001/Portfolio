@@ -1,16 +1,21 @@
 import React from "react";
-import "./educationCard.css";
-import { CCard,CCardImage,CCardBody,CCardTitle,CCardText } from '@coreui/react';
+import "./rankCard.css";
+import {
+  CCard,
+  CCardImage,
+  CCardBody,
+  CCardTitle,
+  CCardText,
+} from "@coreui/react";
 
-function EducationCard({ classs }) {
+function RankCard({ classs }) {
 
-
-  const handleClick = (event) => {
-    event.preventDefault();
-
-    const url = classs.link;
-    window.open(url, '_blank');
-  };
+    const handleClick = (event) => {
+        event.preventDefault();
+    
+        const url = classs.link;
+        window.open(url, '_blank');
+      };
 
   return (
     <div className="education-card" onClick={(event) => handleClick(event)}>
@@ -18,11 +23,7 @@ function EducationCard({ classs }) {
        */}
 
       <CCard style={{ width: "18rem" }} className="default-card">
-        <CCardImage
-          
-          className="education-logo"
-          src={classs.logo}
-        />
+        <CCardImage className="education-logo" src={classs.logo} />
         <CCardBody>
           <CCardTitle>
             <label className="company-name">{classs.company}</label>
@@ -35,6 +36,7 @@ function EducationCard({ classs }) {
               </div>
               <div className="education-desc">
                 <p>{classs.description}</p>
+                <p>{classs.Rank}</p>
               </div>
             </div>
           </CCardText>
@@ -44,4 +46,4 @@ function EducationCard({ classs }) {
   );
 }
 
-export default EducationCard;
+export default RankCard;

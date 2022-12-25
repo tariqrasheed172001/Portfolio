@@ -4,6 +4,7 @@ import AssuredWorkloadIcon from "@mui/icons-material/AssuredWorkload";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import PhoneForwardedIcon from "@mui/icons-material/PhoneForwarded";
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
 function Web() {
   const [sshow, handleSshow] = useState(false);
@@ -24,7 +25,16 @@ function Web() {
             className={`option-icon ${sshow && "nav_black_option_icon"}`}
             fontSize="medium"
           />
-          <label className={`${sshow && "nav_black_a"}`}>Projects</label>
+          <label >Projects</label>
+        </a>
+      </div>
+      <div className="web-option">
+        <a href="#achievements">
+          <EmojiEventsIcon
+            className={`option-icon ${sshow && "nav_black_option_icon"}`}
+            fontSize="medium"
+          />
+          <label>Achievements</label>
         </a>
       </div>
       <div className="web-option">
@@ -33,7 +43,7 @@ function Web() {
             className={`option-icon ${sshow && "nav_black_option_icon"}`}
             fontSize="medium"
           />
-          <label className={`${sshow && "nav_black_a"}`}>Skills</label>
+          <label >Skills</label>
         </a>
       </div>
       <div className="web-option">
@@ -42,7 +52,7 @@ function Web() {
             className={`option-icon ${sshow && "nav_black_option_icon"}`}
             fontSize="medium"
           />
-          <label className={`${sshow && "nav_black_a"}`}>Education</label>
+          <label >Education</label>
         </a>
       </div>
       <div className="web-option">
@@ -50,7 +60,7 @@ function Web() {
           <span className={`option-icon ${sshow && "nav_black_option_icon"}`}>
             <PhoneForwardedIcon fontSize="medium" />
           </span>
-          <label className={`${sshow && "nav_black_a"}`}>Contact</label>
+          <label >Contact</label>
         </a>
       </div>
     </div>

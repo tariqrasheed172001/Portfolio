@@ -4,6 +4,8 @@ import AssuredWorkloadIcon from '@mui/icons-material/AssuredWorkload';
 import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import PhoneForwardedIcon from '@mui/icons-material/PhoneForwarded';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+
 
 function Mobile({ isOpen, setOpen }) {
   return (
@@ -13,6 +15,12 @@ function Mobile({ isOpen, setOpen }) {
           <a href="#project">
             <AssuredWorkloadIcon className="option-icon" fontSize="large" />
             projects
+          </a>
+        </div>
+        <div className="mobile-option">
+          <a href="#achievements">
+            <EmojiEventsIcon className="option-icon" fontSize="large" />
+            Achievements
           </a>
         </div>
         <div className="mobile-option">

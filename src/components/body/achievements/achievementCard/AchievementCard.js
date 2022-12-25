@@ -30,6 +30,7 @@ function AchievementCard({ achievement }) {
           </CButton>
         </CCardBody>
       </CCard>
+      
     </div>
   );
 }

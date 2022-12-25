@@ -5,7 +5,8 @@ export const educationData = [
         dateJoining:"2020",
         dateEnd:"present",
         logo:"https://pbs.twimg.com/profile_images/1144258171445420033/g8iWJBmU_400x400.jpg",
-        description:"pursuing B.Tech in National Institute of Technology srinagar"
+        description:"pursuing B.Tech in National Institute of Technology srinagar",
+        link:"https://nitsri.ac.in/",
     },
     {
         company:"M.L higher secondry shool",
@@ -14,6 +15,7 @@ export const educationData = [
         dateEnd:"2020",
         grade:"79.4% / 100%",
         logo:require("../../assets/higherSec.png"),
-        description:"Qualified my class 12th exam in M.L higher secondry shool at hajin sonawari. District Bandipora,INDIA"
+        description:"Qualified my class 12th exam in M.L higher secondry shool at hajin sonawari. District Bandipora,INDIA",
+        link:"https://www.facebook.com/profile.php?id=100054325189383"
     },
 ]

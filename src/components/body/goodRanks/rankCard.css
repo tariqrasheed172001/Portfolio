@@ -1,0 +1,48 @@
+.education-card {
+  padding: 8px;
+  width: max-content;
+  margin-top: 16px;
+  margin: 4px 10px;
+  margin-bottom: 1.5rem;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  border-right: 2px solid hsl(280deg 81% 45%);
+  border-bottom: 2px solid hsl(280deg 81% 45%);
+  transition: transform 350ms;
+  margin-right: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.education-card:hover {
+  transform: scale(1.02);
+}
+.education-logo {
+  height: 120px;
+}
+.education-info {
+  display: flex;
+  font-size: 16px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.company-name {
+  font-size: 16px;
+}
+.education-dates {
+  color: grey;
+}
+.education-desc {
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 02;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80%;
+}
+@media only screen and (max-width: 720px) {
+  .education-card {
+    width: 100%;
+  }
+}

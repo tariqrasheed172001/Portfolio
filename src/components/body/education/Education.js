@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Separator from "../../common/seperator/Separator";
 import { educationData } from "../../Data/education";
 import "./education.css";
@@ -8,11 +8,12 @@ import EducationCard from "./EducationCard";
 function Education() {
   const data = educationData;
   
+
   return (
     
     <div className="education">
-    <Separator />
-    
+      <Separator />
+
       <label className="section-title">Education</label>
       <div className="education-list">
         {
