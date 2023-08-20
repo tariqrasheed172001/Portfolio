@@ -12,6 +12,9 @@ function ProjectCard({ project }) {
         <CCardBody>
           <CCardTitle><label className='project-title'>{project.title}</label></CCardTitle>
           <CCardText>
+                <div style={{display:"flex"}}>
+
+               
                     {
                         project.live && (
                         <a className='project-link' href={project.live}>
@@ -29,10 +32,12 @@ function ProjectCard({ project }) {
                             </a>    
                         )
                     }
+                    </div>
+                  <p>{project.status && (`status: ${project.status}`)}</p>
                 <p>{project.about}</p>
                     {project.tags.map((tag) => {
                         return (
-                            <label className='tag'>{tag}</label>
+                              <label className='tag'>{tag}</label>
                         )
                     })}
           </CCardText>

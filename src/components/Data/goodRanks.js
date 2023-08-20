@@ -9,6 +9,16 @@ export const Ranks = [
     link: "https://github.com/tariqrasheed172001/web/blob/main/screenshots/00000000008caba4%20(2).pdf",
   },
   {
+    company: "Semicolon",
+    class: "class 12th",
+    // dateJoining: "2019",
+    dateEnd: "2021",
+    logo:"https://t4.ftcdn.net/jpg/03/17/11/69/360_F_317116906_eDkkuz2gFs0WamvupMTHwLPAIENS8O9c.jpg",
+    // logo:require("../../assets/1656670179400.png"),
+    description: "Inter NIT coding competition, Rank 3",
+    link: "https://codeforces.com/gym/379275/standings",
+  },
+  {
     company: "GeeksForGeeks:",
     class: "class 12th",
     // dateJoining: "2019",
@@ -26,15 +36,5 @@ export const Ranks = [
     logo:"https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Codechef%28new%29_logo.svg/1200px-Codechef%28new%29_logo.svg.png",
     description: "codechef Starters,  Global Rank 92",
     link: "https://www.codechef.com/rankings/START31D?itemsPerPage=100&order=asc&page=1&sortBy=rank",
-  },
-  {
-    company: "Semicolon",
-    class: "class 12th",
-    // dateJoining: "2019",
-    dateEnd: "2021",
-    logo:"https://t4.ftcdn.net/jpg/03/17/11/69/360_F_317116906_eDkkuz2gFs0WamvupMTHwLPAIENS8O9c.jpg",
-    // logo:require("../../assets/1656670179400.png"),
-    description: "Inter NIT coding competition, Rank 3",
-    link: "",
   },
 ];

@@ -1,8 +1,9 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contactForm.css";
-import Snackbar from "@mui/material/Snackbar";
+import Snackbar from '@mui/material/Snackbar';
 import { Alert, TextField } from "@mui/material";
+
 
 function ContactForm() {
   const form = useRef();
@@ -33,7 +34,9 @@ function ContactForm() {
       .sendForm(
         "service_mcz0f7m",
         "template_o0tkjg6",
+        
         form.current,
+        
         "B58rrap509ODdh6S7"
       )
       .then(
@@ -93,6 +96,7 @@ function ContactForm() {
             onClose={handleClose}
             severity="success"
             sx={{ width: "100%" }}
+            
           >
             message sended ✔︎
           </Alert>

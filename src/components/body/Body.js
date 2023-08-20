@@ -7,6 +7,7 @@ import Skills from "./skills/Skills";
 import Work from "./education/Education";
 import Achieve from "./achievements/Achieve";
 import Rank from "./goodRanks/Rank";
+import Experiance from "./experience/Experiance";
 
 function Body() {
   return (
@@ -14,14 +15,17 @@ function Body() {
       <section id="about">
         <About />
       </section>
-      <section id="skills">
-        <Skills />
+      <section id="experience">
+        <Experiance />
       </section>
       <section id="Rank">
         <Rank />
       </section>
       <section id="project">
         <Projects />
+      </section>
+      <section id="skills">
+        <Skills />
       </section>
       <section id="achievements" >
         <Achieve />

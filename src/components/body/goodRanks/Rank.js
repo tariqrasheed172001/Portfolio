@@ -15,7 +15,7 @@ function Rank() {
     <div className="education">
     <Separator />
     
-      <label className="section-title">Good Ranks</label>
+      <label className="section-title">Coding Ranks</label>
       <div className="education-list">
         {
           data.map((classs) => {
