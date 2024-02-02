@@ -9,16 +9,16 @@ function Contact() {
   return (
     <div className='contact'>
       <Separator />
-      <label className='section-title'>Contact</label>
+      <label className='section-title' data-aos="zoom-in" data-aos-duration="2000">Contact</label>
       <div className='contact-container'>
         <div className='contact-left'>
-          <p>want to get in touch? Contact me on any of the platform</p>
+          <p data-aos="fade-right">want to get in touch? Contact me on any of the platform</p>
           <ContactForm />
           <Social />
         </div>
-        <div className='download'>
+        <div className='download' data-aos="zoom-in-down">
          
-          <a href="https://tariqrasheed172001.github.io/personal-website/MyResume.pdf" download="resume.pdf">
+          <a href="https://drive.google.com/file/d/1pyuJxFnQjT2-B_t7kjDiRTYrmGOeaqZ0/view?usp=sharing" download="resume.pdf">
             <CloudDownloadOutlinedIcon fontSize='small' />
             Download resume
           </a>

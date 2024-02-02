@@ -16,7 +16,7 @@ function Rank() {
     <Separator />
     
       <label className="section-title">Coding Ranks</label>
-      <div className="education-list">
+      <div className="education-list" data-aos="fade-left">
         {
           data.map((classs) => {
             return (

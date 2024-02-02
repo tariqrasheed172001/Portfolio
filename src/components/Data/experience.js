@@ -14,6 +14,6 @@ export const experienceData = [
     link:
       "https://www.ralappingsolutions.com",
     description:
-      "Developed responsive web application that contains static contents.\n TechStack:JavaScript,html,css,reactJS,bootStrap,materialUietc.\n Experience using developing tools as version control system Git. Developed custom UI elements optimized for both touch and non-touch environments.",
+      "Responsive web application that contains static contents. TechStack: JavaScript, html, css, reactJS, bootStrap, material Ui etc.\n Experience using developing tools as version control system Git.UI elements optimized for both touch and non-touch environments.",
   },
 ];

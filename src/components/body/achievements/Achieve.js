@@ -10,7 +10,7 @@ function Achieve() {
     <div className='achievements'>
         <Separator />
         <label className='section-title' >Achievements</label>
-        <div className='achievement-list'>
+        <div className='achievement-list' data-aos="fade-left" data-aos-duration="3000">
             {data.map((achievement) => {
                 return (
                     <AchievementCard achievement={achievement} />

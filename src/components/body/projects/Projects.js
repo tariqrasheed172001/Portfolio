@@ -10,7 +10,7 @@ function Projects() {
     <div className='projects'>
         <Separator />
         <label className='section-title' >Projects</label>
-        <div className='project'>
+        <div className='project' data-aos="fade-left">
             {data.map((project) => {
                 return (
                     <ProjectCard project={project} />

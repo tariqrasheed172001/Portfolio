@@ -15,7 +15,7 @@ function Education() {
       <Separator />
 
       <label className="section-title">Education</label>
-      <div className="education-list">
+      <div className="education-list" data-aos="fade-left" data-aos-duration="3000">
         {
           data.map((classs) => {
             return (

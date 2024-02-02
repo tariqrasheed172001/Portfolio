@@ -55,7 +55,7 @@ function ContactForm() {
   
 
   return (
-    <div className="contact-form">
+    <div className="contact-form" data-aos="zoom-in">
       <label className="name">Write me a message</label>
       <br></br>
       <br></br>

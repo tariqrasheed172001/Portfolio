@@ -7,13 +7,15 @@ function About() {
   return (
     <div className="about">
       <div className="about-top">
-        <div className="about-info">
-          Hello 👋 I'm <br /> <span className="info-name">Tariq Rasheed</span>{" "}
+        <div className="about-info" data-aos="fade-right" data-aos-duration="2000">
+          <span data-aos="fade-right" data-aos-duration="1000">Hello 👋 I'm</span> <br /> <span className="info-name" data-aos="fade-left" data-aos-duration="2000"> Tariq Rasheed</span>{" "}
           <br />
-          Student At NIT Srinagar
+          <span data-aos="fade-right" data-aos-duration="3000" > Student At NIT Srinagar </span>
         </div>
         <div className="about-picture">
           <img
+            data-aos="fade-left"
+            data-aos-duration="1000"
             src={require("../../../assets/picture.svg").default}
             className="picture"
             alt=""
@@ -22,6 +24,7 @@ function About() {
       </div>
       <div className="more-info">
         <TypeWriterEffect
+          data-aos="fade-right"
           textStyle={{ 
               fontFamily: "'Work Sans', sans-serif",
               fontSize:"16px",

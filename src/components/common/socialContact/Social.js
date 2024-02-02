@@ -11,7 +11,7 @@ function Social() {
         data.map((item) => {
             return (
                 <a href={item.link} key={item.platform}>
-                    <div className='social-icon-div'>
+                    <div className='social-icon-div' data-aos="zoom-in" data-aos-duration={`${item.id}000`}>
                         <img src={item.icons} className='social-icon' alt={item.platform} />
                     </div>
                 </a>

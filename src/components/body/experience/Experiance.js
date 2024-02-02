@@ -10,7 +10,7 @@ function Experiance() {
     <div className='achievements'>
         <Separator />
         <label className='section-title' >Experiance</label>
-        <div className='achievement-list'>
+        <div className='achievement-list' data-aos="fade-left" >
             {data.map((experience) => {
                 return (
                     <ExperienceCard achievement={experience} />

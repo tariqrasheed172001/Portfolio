@@ -12,7 +12,7 @@ function Skills() {
       <Separator />
       <label className="section-title">Skills</label>
       <div className="skills-container">
-            <div className="skills-list">
+            <div className="skills-list" data-aos="fade-left" data-aos-duration="3000">
               {data.map((skill) => {
                 return <SkillCard skill={skill} />;
               })}
