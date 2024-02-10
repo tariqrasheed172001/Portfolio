@@ -1,5 +1,5 @@
 import React from 'react'
-import "./achievementCard.css";
+import "./experienceCard.css";
 import {
   CCard,
   CCardBody,
@@ -22,7 +22,8 @@ function ExperienceCard({achievement}) {
           </CCardTitle>
           <CCardText>
 
-            {achievement.company && <div className="achievement-company"><label>Institute: </label>{achievement.company}</div>}
+            {achievement.company && <div className="achievement-company"><label>Company: </label>{achievement.company}</div>}
+            {achievement.institue && <div className="achievement-company"><label>Institue: </label>{achievement.institue}</div>}
             {/* <div className="achievement-instructor"><label>Instructor: </label>{achievement.instructor}</div> */}
             <div className="achievement-desc">{achievement.description}</div>
           </CCardText>
@@ -30,6 +31,7 @@ function ExperienceCard({achievement}) {
             <CButton
             href={achievement.certificate}
             className="certificate-button"
+            target='_blank'
           >
             Certificate
           </CButton>
@@ -38,6 +40,7 @@ function ExperienceCard({achievement}) {
             <CButton
             href={achievement.link}
             className="certificate-button"
+            target="_blank"
           >
             Link
           </CButton>

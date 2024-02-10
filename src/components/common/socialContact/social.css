@@ -1,27 +1,24 @@
-.social-icon{
-    height: 100px;
-    cursor: pointer;
+.social-icon {
+  height: 100px;
+  cursor: pointer;
 }
-.social-contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-
+.social-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.social-icon-div{
-    padding: 6px;
-    margin: 6px;
-    transition: transform 350ms;
+.social-contact > a {
+  transition: transform 350ms;
 }
-
-.social-icon-div:hover{
-    transform: scale(1.09);
+.social-contact > a:hover {
+  transform: scale(1.09);
 }
-
-@media only screen and (max-width:720px){
-    .social-icon{
-        height: 50px;
-    }
+.social-icon-div {
+  padding: 6px;
+  margin: 6px;
+}
+@media only screen and (max-width: 720px) {
+  .social-icon {
+    height: 50px;
+  }
 }

@@ -4,10 +4,10 @@ import "./body.css";
 import Contact from "./contact/Contact";
 import Projects from "./projects/Projects";
 import Skills from "./skills/Skills";
-import Work from "./education/Education";
+import Education from "./education/Education";
 import Achieve from "./achievements/Achieve";
 import Rank from "./goodRanks/Rank";
-import Experiance from "./experience/Experiance";
+import Experience from "./experience/Experience";
 
 function Body() {
   return (
@@ -16,9 +16,9 @@ function Body() {
         <About />
       </section>
       <section id="experience">
-        <Experiance />
+        <Experience />
       </section>
-      <section id="Rank">
+      <section id="ranks">
         <Rank />
       </section>
       <section id="project">
@@ -30,8 +30,8 @@ function Body() {
       <section id="achievements" >
         <Achieve />
       </section>
-      <section id="work">
-        <Work />
+      <section id="education">
+        <Education />
       </section>
       <section id="contact">
         <Contact />

@@ -26,14 +26,18 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  cursor:pointer;
 }
 .download > a {
   justify-content: center;
   align-items: center;
   text-decoration: none;
   color: black;
+  transition: transform 350ms;
 }
-
+.download > a:hover{
+  transform: scale(1.02);
+}
 @media only screen and (max-width: 1334px) {
   .contact-container {
     flex-direction: column;

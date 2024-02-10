@@ -23,7 +23,7 @@ function Header() {
 
   return (
     <div className="header" >
-      <div className="logo">Tariq</div>
+      <div className="logo" onClick={() => window.location.reload()}>Tariq</div>
       <div className="menu">
         <div className="web-menu">
           <Web />
@@ -38,8 +38,8 @@ function Header() {
                 direction="right"
               />
             </div>
+            {isOpen && <Mobile isOpen={isOpen} setOpen={setOpen} />}
           </div>
-          {isOpen && <Mobile isOpen={isOpen} setOpen={setOpen} />}
         </div>
       </div>
     </div>

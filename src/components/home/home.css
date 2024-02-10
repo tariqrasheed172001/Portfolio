@@ -4,7 +4,7 @@ html{
 .home{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 @media only screen and (max-width: 1024px) {

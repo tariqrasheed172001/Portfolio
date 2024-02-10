@@ -14,8 +14,6 @@ function EducationCard({ classs }) {
 
   return (
     <div className="education-card" onClick={(event) => handleClick(event)}>
-      {/* <img src={classs.logo} className='education-logo' alt='logo' />
-       */}
 
       <CCard style={{ width: "18rem" }} className="default-card">
         <CCardImage

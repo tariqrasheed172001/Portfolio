@@ -1,29 +1,57 @@
-.web{
-    display: flex;
-    flex: 1;
-    align-items: center;
+.web {
+  display: flex;
+  flex: 1;
+  align-items: center;
 }
-.web-option{
-    font-size: 20px;
-    margin-right: 30px;
-    font-weight: 700;
-    cursor: pointer;
+.web-option {
+  font-size: 20px;
+  margin-right: 30px;
+  font-weight: 700;
+  cursor: pointer;
 }
-.web-option > a{
-    display:flex;
-    text-decoration: none;
-    align-items: center;
-    margin-right: 4px;
-    color: black;
-    cursor: pointer;
+.web-option > a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  margin-right: 4px;
+  color: black;
+  cursor: pointer;
 }
-.web-option > label{
-    cursor: pointer;
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
 }
-.option-icon{
-    margin-right: 5px;
-    cursor: pointer;
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to left bottom,
+    #d16ba5,
+    #c572b6,
+    #b67ac5,
+    #a383d1,
+    #8d8bda,
+    #818adb,
+    #7488dc,
+    #6587dd,
+    #627cda,
+    #6270d6,
+    #6464d1,
+    #6757cb
+  );
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
 }
-.web-option:last-child{
-    margin-right: 0px;
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.web-option:last-child {
+  margin-right: 0px;
 }

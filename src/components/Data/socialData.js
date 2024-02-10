@@ -1,15 +1,10 @@
 export const SocialData=[
+    
     {
         id:0,
-        platform:"Instagram",
-        link:"https://www.instagram.com/armaan_hadiq/",
-        icons:require("../../assets/icons/instagram.png")
-    },
-    {
-        id:0,
-        platform:"Github",
-        link:"https://github.com/tariqrasheed172001",
-        icons:require("../../assets/icons/github-2.png"),
+        platform:"Twitter",
+        link:"https://twitter.com/TARIQRA79688874",
+        icons:require("../../assets/icons/twitter.png"),
     },
     {
         id:1,
@@ -19,14 +14,21 @@ export const SocialData=[
     },
     {
         id:2,
+        platform:"Github",
+        link:"https://github.com/tariqrasheed172001",
+        icons:require("../../assets/icons/github-2.png"),
+    },
+    {
+        id:3,
+        platform:"Instagram",
+        link:"https://www.instagram.com/armaan_hadiq/",
+        icons:require("../../assets/icons/instagram.png")
+    },
+    {
+        id:4,
         platform:"Facebook",
         link:"https://www.facebook.com/armaanhadip.armaanhadiq/",
         icons:require("../../assets/icons/facebook.png"),
     },
-    {
-        id:3,
-        platform:"Twitter",
-        link:"https://twitter.com/TARIQRA82421955",
-        icons:require("../../assets/icons/twitter.png"),
-    },
+   
 ];

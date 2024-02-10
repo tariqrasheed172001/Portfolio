@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./web.css";
-import AssuredWorkloadIcon from "@mui/icons-material/AssuredWorkload";
-import LaptopMacIcon from "@mui/icons-material/LaptopMac";
-import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
-import PhoneForwardedIcon from "@mui/icons-material/PhoneForwarded";
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+
 
 function Web() {
   const [sshow, handleSshow] = useState(false);
@@ -20,47 +16,38 @@ function Web() {
   return (
     <div className="web">
       <div className="web-option">
+        <a href="#experience">
+          <label className="hover-underline-animation" >Experience</label>
+        </a>
+      </div>
+      <div className="web-option">
+        <a href="#ranks">
+          <label className="hover-underline-animation" >Ranks</label>
+        </a>
+      </div>
+      <div className="web-option">
         <a href="#project">
-          <AssuredWorkloadIcon
-            className={`option-icon ${sshow && "nav_black_option_icon"}`}
-            fontSize="medium"
-          />
-          <label >Projects</label>
+          <label className="hover-underline-animation" >Projects</label>
         </a>
       </div>
       <div className="web-option">
         <a href="#achievements">
-          <EmojiEventsIcon
-            className={`option-icon ${sshow && "nav_black_option_icon"}`}
-            fontSize="medium"
-          />
-          <label>Achievements</label>
+          <label className="hover-underline-animation" >Achievements</label>
         </a>
       </div>
       <div className="web-option">
         <a href="#skills">
-          <LaptopMacIcon
-            className={`option-icon ${sshow && "nav_black_option_icon"}`}
-            fontSize="medium"
-          />
-          <label >Skills</label>
+          <label className="hover-underline-animation" >Skills</label>
         </a>
       </div>
       <div className="web-option">
-        <a href="#work">
-          <BusinessCenterIcon
-            className={`option-icon ${sshow && "nav_black_option_icon"}`}
-            fontSize="medium"
-          />
-          <label >Education</label>
+        <a href="#education">
+          <label className="hover-underline-animation" >Education</label>
         </a>
       </div>
       <div className="web-option">
         <a href="#contact">
-          <span className={`option-icon ${sshow && "nav_black_option_icon"}`}>
-            <PhoneForwardedIcon fontSize="medium" />
-          </span>
-          <label >Contact</label>
+          <label className="hover-underline-animation" >Contact</label>
         </a>
       </div>
     </div>

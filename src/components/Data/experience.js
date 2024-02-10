@@ -1,6 +1,15 @@
 export const experienceData = [
   {
-    company: "IIT Delhi",
+    company: "Happieloop Technologies",
+    date: "Dec-01-2023 -- Dec-30-2023",
+    title: "FULL STACK DEVELOPER INTERN",
+    certificate:
+      "https://drive.google.com/file/d/1nMNM_8qlODVDXTKmUDFdRGuaURtEOv4x/view",
+    description:
+      "Focusing on React.js for frontend development and Node.js/Express.js for backend. Contributed to the development of responsive React components, ensuring an engaging userinterface. Demonstrated proficiency in server-side logic using Node.js and Express.js to build robust backend functionalities.",
+  },
+  {
+    institue: "IIT Delhi",
     date: "Dec-18-2022 -- Feb-20-2023",
     title: "MACHINE LEARNING INTERN",
     certificate:

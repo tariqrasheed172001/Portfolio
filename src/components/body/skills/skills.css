@@ -1,3 +1,10 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    margin-top: 4rem;
+}
+
 .skills-list{
     display: flex;
     overflow-y: hidden;

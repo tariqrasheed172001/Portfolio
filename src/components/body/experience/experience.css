@@ -11,6 +11,9 @@
     padding: 20px;
     align-items: center;
 }
+.option-icon{
+    margin-right: 6px;
+}
 @media only screen and (max-width: 720px){
     .achievement-list::-webkit-scrollbar{
         display: none;

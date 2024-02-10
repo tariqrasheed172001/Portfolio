@@ -17,6 +17,7 @@
 
 .mobile-menu{
     display: none;
+    align-items: center;
 }
 .web-menu{
     display: flex;
@@ -26,9 +27,10 @@
     font-size: 36px;
     color: blueviolet;
     font-weight: 800;
+    cursor: pointer;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1400px) {
     .mobile-menu{
         display: flex;
     }
