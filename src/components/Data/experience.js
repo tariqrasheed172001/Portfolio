@@ -6,7 +6,7 @@ export const experienceData = [
     certificate:
       "https://drive.google.com/file/d/1nMNM_8qlODVDXTKmUDFdRGuaURtEOv4x/view",
     description:
-      "Focusing on React.js for frontend development and Node.js/Express.js for backend. Contributed to the development of responsive React components, ensuring an engaging userinterface. Demonstrated proficiency in server-side logic using Node.js and Express.js to build robust backend functionalities.",
+      "Focused on MERN tech-stack. Contributed to the development of responsive React components. Demonstrated proficiency in server-side logic using Node + Express js to build backend functionalities.",
   },
   {
     institue: "IIT Delhi",

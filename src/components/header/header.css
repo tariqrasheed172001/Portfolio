@@ -38,6 +38,7 @@
         display: none;
     }
     .logo{
+        margin-top: 9px;
         font-size: 24px;
     }
 }
